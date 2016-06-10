@@ -1,5 +1,7 @@
-before_install:
-    
+addons:
+    apt:
+        packages:
+            - python3    
 
 script:
     - cd ${TRAVIS_BUILD_DIR}
