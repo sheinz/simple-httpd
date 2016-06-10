@@ -2,10 +2,8 @@ addons:
     apt:
         packages:
             - python3    
-            - python3-pip
+            - python3-requests
 
-before_install:
-    pip install requests
 
 script:
     - cd ${TRAVIS_BUILD_DIR}
