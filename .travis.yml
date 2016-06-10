@@ -2,6 +2,7 @@ addons:
     apt:
         packages:
             - python3    
+            - python3-requests
 
 script:
     - cd ${TRAVIS_BUILD_DIR}
