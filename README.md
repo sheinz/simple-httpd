@@ -1,5 +1,7 @@
 # Extemely simple http web server
 
+[![Build Status](https://travis-ci.org/sheinz/simple-httpd.svg?branch=master)](https://travis-ci.org/sheinz/simple-httpd)
+
 ## Features
 
 * Using plain sockets.
